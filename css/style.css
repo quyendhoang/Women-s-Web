@@ -1,0 +1,132 @@
+.main{
+    position: absolute;
+    left:-1000px;
+}
+
+body{
+	padding: 10px;
+    margin:  30px;
+	background-color: #bee7e8ff;
+	font-size: auto;
+    font-family:  "Times New Roman", Times, serif;
+}
+
+header, nav{
+    padding: 8px 15px 3px 30px;
+}
+
+nav ul li{
+    display: inline-flex;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 35px;
+    background-color:#7787bc;
+    justify-content:center;
+}
+
+nav a{
+    text-decoration: none;
+    color:#1d2262;
+}
+
+a:visited{
+     color: #000000;
+
+}
+
+nav a.current{
+    color: #95188f;
+    text-shadow: 5px 3px 10px #ffffff;
+}
+
+h1{
+    color: #0c5663;
+    font-family:  "Copperplate", Lucida Console, Courier New;
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+h2, dt{
+    color: #1d6774;
+    font-size: 25px;
+    font-family:  "Times New Roman", Times, serif;
+    padding: 20px;
+}
+
+h3{
+    font-size: "Times New Roman", Times, serif;
+    font-size: 15px;
+    padding: 20px;
+
+}
+
+p{
+    margin-bottom: 10px;
+    padding-left: 25px;
+    
+}
+
+img{
+    display: block;
+    width: 500px;
+    padding: 10px;
+    margin:10px;
+    background-color: rgb(208, 226, 229);
+    border-radius: 10px;
+    border: solid #7d8cc4ff 5px;
+}
+
+div.literature:nth-child(even) img{
+    border: dotted #7d8cc4ff 5px;
+}
+
+img:hover {
+    display: block;
+    width: 500px;
+    padding: 0px;
+    margin:10px;
+    background-color: rgb(208, 226, 229);
+    border: solid rgb(42, 139, 156) 15px;
+    border-radius: 10px;
+}
+
+history.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+li{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+}
+
+#main{
+    position: absolute;
+}
+
+.grid{
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #778A9C;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 40px;
+}
+
+footer{
+    position: absolute;
+    bottom: auto;
+    margin: 5px;
+}
+/*.skip{
+    
+}
+.skip:focus{
+
+} for project and hw 4
